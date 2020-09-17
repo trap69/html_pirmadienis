@@ -3,82 +3,166 @@
 <head>
 	<title>SZA Prototipas</title>
 	<meta charset="utf-8">
-
 </head>
-<div class="container">
 <body>
+<div class="container">
 	<header>
-			<div class="header" >
-			<a name="name_of_the_page"></a>
+			<div class="page_name" >
+			<h2>Name,logo,etc</h2>
 			</div>
-		<div class="link list" >
-			<li>Link1</li>
-			<li>Link2</li>
-			<li>Link3</li>
+		<div class="link_list">
+			<ul>
+				<li><a href=".">Link1</a></li>
+				<li><a href=".">Link2</a></li>
+				<li><a href=".">Link3</a></li>
+			</ul>
 		</div>
-		<div class="header">
+		<div class="search">
 			<input type="search" name="search_bar" placeholder="paieska">
 		</div>
-		<div class="navigation_bar">
-			<div class="">
-				<li>link1</li>
-				<li>link2</li>
-				<li>link3</li>
-				<li>link4</li>
-				<li>link5</li>
+		<nav>
+			<div class="nav_bar">
+				<ul>
+					<li><a href=".">link1</a></li>
+					<li><a href=".">link2</a></li>
+					<li><a href=".">link3</a></li>
+					<li><a href=".">link4</a></li>
+					<li><a href=".">link5</a></li>
+				</ul>
 			</div>
-		</div>
-		<div class="header">
+		</nav>
+	</header>
+	<section>
 			<div class="slideshow_container">
-				<div class="slidebar">
-				<img src="img">
-				<div class="slideshow_arrows">
-				<a href="link1" name="previous_slideshow"></a>
-				<a href="link2" name="next_slideshow" ></a>
+				<img src="img" name="slideshow_img">
+				<h2>Tapkite LSA nariu</h2>
+				<div class="slideshow_arrows1">
+				<a href="link1" name="previous_slideshow"><img src="img/slideshow_arrows1"></a>
 				</div>
+				<div class="slideshow_arrows2">
+				<a href="link2" name="next_slideshow" ><img src="img/slideshow_arrows2"></a>
 				</div>
 			</div>
-		<div class="header">
-			</div>
-	<!-- Hyperlink bar on right #1-->
-	<h1>Hyperlink header #1</h1>
-		<div class="section">		
-			<li><a href=""><img src="."></li></a>
-			<li><a href=""><img src="."></li></a>
-			<li><a href=""><img src="."></li></a>
-			<li><a href=""><img src="."></li></a>
-			<li><a href=""><img src="."></li></a>
-			<li><a href=""><img src="."></li></a>
-			<div class="hyperlink">
-				<a href="Link">Text</a>
-
+		<!-- Hyperlink bar on right #1-->
+		<aside>
+		<h4>Artimiausi renginiai</h4>
+		<div class="right_header_link">
+			<a href=".com">Visi renginiai</a>
+		</div>
+		<div class="aside_list">
+			<ul>	
+			<li><a href=".com"><img src="."></a></li>
+			<li><a href=".com"><img src="."></a></li>
+			<li><a href=".com"><img src="."></a></li>
+			<li><a href=".com"><img src="."></a></li>
+			<li><a href=".com"><img src="."></a></li>
+			<li><a href=".com"><img src="."></a></li>
+			</ul>
+			<div class="aside_link">
+				<a href=".com">Registruotis i rengini</a>
 			</div>
 		</div>
-</header>
+		</aside>
+	</section>
 <main>
-	<div>
-	<div><h1>Naujienos</h1>
+	<div class="main_name">
+	<h1>Naujienos</h1>
 	</div>
-	<h2>archyvas</h2>
+	<div class="right_h1_link">
+	<a href=".com">Naujienuarchyvas</a>
 	</div>
-
-	<div class="main">
-		<div class="main" name="name_of_main"></div>
-		<div class="main">
-			<div class="article">
-			<h1 name="article_name"></h1>
-			<div class="article_body"></div>
-			<img src="date"><div class="date"></div>
-			<div class="hyperlink" name="hyperlink_to_article">
+		<article>
+			<h2>Article_name</h2>
+			<div class="date"><p><time datetime=".">Article_publishing_date</time></p></div>
+			<div class="article_img"><img src="img"></div>
+			<p>Article text</p>
+			<div><a href="link_to_article">Skaityti toliau</a></div>
+		</article>
+		<article>
+			<h2>Article_name</h2>
+			<div class="date"><p><time datetime=".">Article_publishing_date</time></p></div>
+				<p>Article text</p>
+			<div><a href="link_to_article">Skaityti toliau</a></div>
+		</article>	
+		<article>
+			<h2>Article_name</h2>
+			<div class="date"><p><time datetime=".">Article_publishing_date</time></p></div>
+			<div class="article_video">
+				<video>
+				<source src="/.com/mp4" type="video/mp4">
+				<source src="/.com/ogg" type="video/ogg">
+				<source src="/.com/avi" type="video/avi">
+				Your browser doesn't support HTML5 video.
+				</video>
 			</div>
+			<div><a href="link_to_article">Skaityti toliau</a></div>
+		</article>
+		<article>
+			<h2>Article_name</h2>
+			<div class="date"><p><time datetime=".">Article_publishing_date</time></p></div>
+			<div class="article_img"><img src="img"></div>
+			<p>Article text</p>
+			<div><a href="link_to_article"></a>Skaityti toliau</div>
+		</article>
+		<div class="article_pages">
+				<ul>
+					<li><a href=".">page1</a></li>
+					<li><a href=".">page2</a></li>
+					<li><a href=".">page3</a></li>
+					<li><a href=".">page4</a></li>
+					<li><a href=".">page5</a></li>
+				</ul>
 		</div>
 </main>
-			
+	<section class="img_gallery">
+		<div class="section_name">
+			<h2>Naujienos</h2>
+			</div>
+			<div class="right_h2_link">
+			<a href=".com">Archyvas</a>
 		</div>
-			
+		<div class="img_gallery">
+			<div class="slideshow_arrows1">
+				<a href="link1" name="previous_slideshow"><img src="img/slideshow_arrows1"></a>
+			</div>
+			<div class="img_gallery">
+				<a href="img.com/img1"><img src="img" name="slideshow_img"></a>
+				<a href="img.com/img2"><img src="img" name="slideshow_img"></a>
+				<a href="img.com/img3"><img src="img" name="slideshow_img"></a>
+				<a href="img.com/img4"><img src="img" name="slideshow_img"></a>
+			</div>
+				<div class="slideshow_arrows2">
+				<a href="link2" name="next_slideshow" ><img src="img/slideshow_arrows2"></a>
+				</div>
+	</div>
+	</section>
+	<section class="img_section">
+		<h2>Bendradarbiaujiame</h2>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+		<a href="."><img src="img" name="person"></a>
+	</section>
+	<section class="useful_link_list">
+		<h2>Naudingos nuorodos</h2>
+		<div class="link_list">
+			<ul>
+				<li><a href=".">link1</a></li>
+				<li><a href=".">link2</a></li>
+				<li><a href=".">link3</a></li>
+				<li><a href=".">link4</a></li>
+				<li><a href=".">link5</a></li>
+			</ul>
 		</div>
-		</div>
-	</header>
-</body>
+	</section>
+<footer>
+		<div class="small"><p>Name of the company</p></div>
+		<div class="small"><p>Adress</p></div>
+</footer>
 </div>
+</body>
 </html>
